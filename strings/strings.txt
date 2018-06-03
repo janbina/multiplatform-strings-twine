@@ -1,0 +1,15 @@
+[[General]]
+	[dialog_dismiss]
+		tags = android
+        en = Cancel
+		de = Abbrechen
+	[dialog_delete]
+		tags = ios
+        en = Delete
+		de = Löschen
+
+[[Learning]]
+	[learning_packages_count_few]
+		comment = Used as toolbar subtitle on learning screen
+        en = %1$d out of %2$d packages
+		de = %1$d von %2$d Paketen

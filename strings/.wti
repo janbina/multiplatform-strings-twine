@@ -1,0 +1,10 @@
+api_key: YOUR_API_KEY
+
+# consume all files to strings.xml after pull, remove garbage
+after_pull:	"python wtiAfterPull.py"
+
+# generate all strings_XX.xml files from twine
+before_push:	"python wtiBeforePush.py"
+
+# remove garbage created before push
+after_push:	"python wtiAfterPush.py"
