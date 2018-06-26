@@ -1,6 +1,7 @@
 # Managing strings for multiple platforms
 
-This repository shows how we manage strings for multiple platforms.
+This repository serves as an example for this blog post: https://medium.com/@janbina/managing-strings-for-multiple-platforms-eea3003d367c.
+It shows how we manage strings for multiple platforms.
 We are using [twine](https://github.com/scelis/twine) - all our string are in a single twine file 
 (`strings/strings.txt` in this repository), and twine generates platform-specific string files from it.
 
